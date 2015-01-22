@@ -1,0 +1,19 @@
+autodetach on
+caption splitonly '%t %= %C %a'
+hardstatus lastline '%-Lw%50>%n%f* %t%{-}%+Lw%<'
+startup_message off
+defutf8 on
+## start two sessions
+screen -t code vim
+screen -t shell
+# goto screen 0 and split it
+select 0
+split
+## switch to bottom split and make it 10 lines smaller
+focus
+resize -14
+## select screen 1 to show in bottom split
+select 1
+focus
+## display window list
+windows
