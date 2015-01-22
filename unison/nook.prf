@@ -1,0 +1,26 @@
+# Unison preferences file
+root = /Volumes/NOOK32GB/My Files/Books/
+root = /Users/ajai/Documents/Books/
+
+fat = true
+
+ignore = Name .*
+ignore = Name *.apk
+ignore = Name *.chm
+ignore = Name *.data
+ignore = Name *.doc
+ignore = Name *.djvu
+ignore = Name *.gif
+ignore = Name *.htm
+ignore = Name *.html
+ignore = Name *.jpg
+ignore = Name *.jpeg
+ignore = Name *.mobi
+ignore = Name *.mov
+ignore = Name *.mp3
+ignore = Name *.pdf
+ignore = Name *.png
+ignore = Name *.sh
+ignore = Name *.txt
+ignore = Name *.zip
+
