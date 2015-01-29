@@ -1,3 +1,4 @@
+term screen-256color
 autodetach on
 caption splitonly '%t %= %C %a'
 hardstatus lastline '%-Lw%50>%n%f* %t%{-}%+Lw%<'
